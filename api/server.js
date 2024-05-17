@@ -8,7 +8,7 @@ server.use(bodyParser.json());
 
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
-    '/product/:resource/:id/show': '/:resource/:id'
+    '/cards/:resource/:id/show': '/:resource/:id'
 }));
 
 server.use((req, res, next) => {
