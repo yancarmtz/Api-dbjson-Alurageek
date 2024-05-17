@@ -4,8 +4,7 @@
   "description": "Products for Alura Geek fake store api",
   "main": "index.js",
   "scripts": {
-    "start": "node api/server.js",
-    "watch": "json-server --watch db.json --port 3000"
+    "start": "node api/server.js
   },
   "repository": {
     "type": "git",
